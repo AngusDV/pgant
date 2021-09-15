@@ -1,4 +1,4 @@
-jQueryGantt
+PGantt
 ===========
 Persian jQuery Gantt editor has been written by Hassan Mousavi 
 This is a project about gantt chart and work with persian calendar and persian datetime.
