@@ -1,0 +1,15 @@
+[27-Aug-2018 05:07:11 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'The OAuth 2.0 access token has expired, and a refresh token is not available. Refresh tokens are not returned for responses that were auto-approved.' in /home/ideabaz/public_html/template/include/google-login-api/libraries/Google/Auth/OAuth2.php:248
+Stack trace:
+#0 /home/ideabaz/public_html/template/include/google-login-api/libraries/Google/Service/Resource.php(214): Google_Auth_OAuth2->sign(Object(Google_Http_Request))
+#1 /home/ideabaz/public_html/template/include/google-login-api/libraries/Google/Service/Oauth2.php(175): Google_Service_Resource->call('get', Array, 'Google_Service_...')
+#2 /home/ideabaz/public_html/template/include/google-login-api/index.php(95): Google_Service_Oauth2_Userinfo_Resource->get()
+#3 {main}
+  thrown in /home/ideabaz/public_html/template/include/google-login-api/libraries/Google/Auth/OAuth2.php on line 248
+[27-Aug-2018 05:07:29 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'The OAuth 2.0 access token has expired, and a refresh token is not available. Refresh tokens are not returned for responses that were auto-approved.' in /home/ideabaz/public_html/template/include/google-login-api/libraries/Google/Auth/OAuth2.php:248
+Stack trace:
+#0 /home/ideabaz/public_html/template/include/google-login-api/libraries/Google/Service/Resource.php(214): Google_Auth_OAuth2->sign(Object(Google_Http_Request))
+#1 /home/ideabaz/public_html/template/include/google-login-api/libraries/Google/Service/Oauth2.php(175): Google_Service_Resource->call('get', Array, 'Google_Service_...')
+#2 /home/ideabaz/public_html/template/include/google-login-api/index.php(95): Google_Service_Oauth2_Userinfo_Resource->get()
+#3 {main}
+  thrown in /home/ideabaz/public_html/template/include/google-login-api/libraries/Google/Auth/OAuth2.php on line 248
+[28-Oct-2018 05:54:04 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/pgant/public_html/include/google-login-api/index.php on line 118
